@@ -9,9 +9,9 @@ git clone --depth=1 https://github.com/Mr-Beta-Version/CRT
 
 cd CRT
 
-chmod +x crtsh.py
-
 sudo cp crtsh.py $PREFIX/bin/crtsh
+
+sudo chmod +x $PREFIX/bin/crtsh
 
 ```
 
