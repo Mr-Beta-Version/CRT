@@ -6,7 +6,7 @@ import os
 
 def get_subs(domain):
     try:
-        data = requests.get(f"https://crt.sh/?q={domain}&output=json", timeout=10).json()
+        data = requests.get(f"https://crt.sh/?q={domain}&output=json").json()
     except Exception as e:
         print(f"[x] Error fetching {domain}: {e}")
         return []
